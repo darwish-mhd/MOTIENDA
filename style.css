@@ -1,0 +1,268 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			.sidebar{
+				position: fixed;
+				top: 13%;
+				left: 0;
+				z-index: 999;
+				height: 100vh;
+				width: 120px;
+				background-color: goldenrod;
+				opacity: 0.8;
+				backdrop-filter: blur(10px);
+				display: flex;
+				flex-direction: column;
+				align-items: left;
+				justify-content: flex-start;
+
+
+
+
+			}
+			.sidebar a:hover{
+				background-color: darkgoldenrod;
+				width: 100%;
+
+			}
+			.sidebar ul{color: white;
+				list-style-type: none;
+				background-color: darkgoldenrod;
+				padding: 0px;
+				margin: 0px;
+				overflow: hidden;
+
+			}
+			.sidebar ul li{
+				display: inline-block;
+				position: relative;
+
+
+			}
+			.sidebar ul li a{
+				display: inline-block;
+				padding: 5px 15px;
+				font-size: 15px;
+				text-align: center;
+
+			} 
+			.sidebar ul li a:hover{
+				background-color: darkgoldenrod;
+				width: 100%;
+
+			}
+
+			.sidebar a{color: white;
+            	text-decoration: none;
+            	padding: 15px;
+            	display: block;
+            	text-align: center;
+
+			}
+			
+			header{
+				color: darkgoldenrod;
+				text-align: center;
+				font-size: 50px;
+				background-color: black;
+				padding: 20px 60px;
+				box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+
+
+			}
+
+			body{
+				background-image: url(sand.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				text-align: center;
+				text-decoration: none;
+
+			}
+			h1{
+				color: darkgoldenrod;
+
+			}
+			h3{font-size: 50px;
+				color: whitesmoke;
+				text-decoration: none;
+				}
+				.cardjeans a{
+					text-decoration: none;
+				}
+				.cardsweaters a{
+					text-decoration: none;
+				}
+				.cardhoodies a{
+					text-decoration: none;
+				}
+				.cardjoggings a{
+					text-decoration: none;
+				}
+				.cardjeans h3{
+					margin: 2px 500px;
+					border: 2px solid darkgoldenrod;
+					border-width: 5px;
+					border-radius: 10px;
+					background-color: darkgoldenrod;
+				}
+				.cardsweaters h3{
+					margin: 2px 500px;
+					border: 2px solid darkgoldenrod;
+					border-width: 5px;
+					border-radius: 10px;
+					background-color: darkgoldenrod;
+				}
+				.cardhoodies h3{
+					margin: 2px 500px;
+					border: 2px solid darkgoldenrod;
+					border-width: 5px;
+					border-radius: 10px;
+					background-color: darkgoldenrod;
+				}
+				.cardjoggings h3{
+					margin: 2px 500px;
+					border: 2px solid darkgoldenrod;
+					border-width: 5px;
+					border-radius: 10px;
+					background-color: darkgoldenrod;
+				}
+
+				.card-title a{
+					text-decoration: none;
+				}
+				.hover-highlight a{
+					text-decoration: none;
+				}
+				.hover-highlight:hover{
+
+					background-color: goldenrod;
+
+				}
+				.card-container{
+					display: flex;
+					flex-direction: column;
+					gap: 60px;
+					margin-left: 40px;
+					margin-top: 5%;
+					margin-bottom: 50px;
+					text-decoration: none;
+
+				}
+				.card-image{border: 5px solid darkgoldenrod;
+					border-radius: 10px;
+					width: 100%;
+					height: 500px;
+					max-width: 500px;
+					box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+				}
+				.front-image{display: flex;
+					
+					width: 100%;
+					height: 400px;
+					max-width: 1100px ;
+					margin: 2% 15%;
+					border: 5px solid darkgoldenrod;
+					border-radius: 10px;
+				}
+				.frontal-paragraph{font-size: 30px;
+					margin: 4% 18%;
+				}
+				.categorie{background-color: goldenrod;
+					margin: 2% 12%;
+					text-decoration: none;
+					font-size: 35px;
+
+				}
+				.categorie:hover{
+					background-color: darkgoldenrod;
+				}
+				.categorie2{
+					font-size: 60px;
+					margin-top: 40px;
+					margin-bottom: 60px;
+					background-color: black;
+					color: darkgoldenrod;
+					width: 410px;
+					margin-left: 160px;
+				}
+				.jeans-container{margin-left: 100px;
+					margin-top: 30px;
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					gap: 30px;
+				}
+				.jeansimage{border: 5px solid darkgoldenrod;
+					border-radius: 10px;
+					width: 100%;
+					height: 300px;
+					max-width: 240px;
+					box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+
+
+				}
+				.jeanscard-title{
+					border: 5px solid darkgoldenrod;
+					border-radius: 10px;
+					margin: 2px 
+				font-size:25px;
+					background-color: darkgoldenrod;
+					border-block-width: 2px;
+					box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+					padding: 5px
+				}
+				.categoriename{
+					margin:1px 200px;
+					font-size: 60px;
+					border: 5px solid black;
+					border-radius: 10px;
+					background-color: black;
+					color: darkgoldenrod;
+
+				}
+				.whatsapp-link{
+					text-decoration: none;
+					font-size: 60px;
+					background-color: green;
+					border: 4px solid green ;
+					border-radius: 10px;
+					color: white;
+					margin: 60px 200px;
+					box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+				}
+				.insta-link{
+					text-decoration: none;
+					font-size: 60px;
+					background-color: deeppink;
+					border: 4px solid deeppink ;
+					border-radius: 10px;
+					color: white;
+					margin: 60px 200px;
+					box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+				.facebook-link{
+					text-decoration: none;
+					font-size: 60px;
+					background-color: blue;
+					border: 4px solid blue ;
+					border-radius: 10px;
+					color: white;
+					margin: 60px 200px;
+					box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+				}
+
+		
+		
